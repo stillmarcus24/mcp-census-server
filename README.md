@@ -9,8 +9,9 @@ live endpoint probes, 285 server-years of version history — not from reading t
 
 ```bash
 npm install && npm run build
-npm start          # stdio transport
-npm run evals      # 21 contract + definition-quality checks
+npm start            # stdio transport
+npm run start:http   # HTTP transport, OAuth 2.1 protected
+npm run evals        # 39 checks: contract, definition quality, and auth
 ```
 
 ## Tools
@@ -65,6 +66,42 @@ probe_mcp_endpoint    -> state: LIVE
 Structured logs go to **stderr only** — stdout is the JSON-RPC channel on a stdio
 transport, and writing to it is the most common way a working MCP server becomes an
 unparseable one.
+
+## OAuth 2.1 Resource Server
+
+Enabled by setting `MCP_OAUTH_ISSUER` and `MCP_OAUTH_RESOURCE`; it then **fails closed**
+on every request to `/mcp`.
+
+| path | protected |
+|---|---|
+| `/.well-known/oauth-protected-resource` | **public** — RFC 9728 discovery |
+| `/healthz` | public, leaks nothing |
+| `/mcp` | gated; 401 carries `WWW-Authenticate` |
+
+Gating the metadata document would be a bug, not extra security: a client that cannot
+read it cannot discover how to authenticate, and the 401 becomes unrecoverable.
+
+### 🚨 Audience binding is the check that matters
+
+The MCP spec forbids accepting a token that was not issued for this server. Without an
+`aud` check, anyone holding a valid token for *any* resource on the same issuer can spend
+it here — the confused-deputy attack. `aud` is the field most often skipped, and skipping
+it turns authentication into decoration. It is verified explicitly, and reported as its own
+`invalid_audience` state rather than collapsing into a generic failure.
+
+Verified live against a running server with real minted tokens:
+
+```
+1. PRM discovery (must be PUBLIC)   HTTP 200  ["http://127.0.0.1:8792"]
+2. NO token                         HTTP 401  WWW-Authenticate: Bearer realm="mcp", resource_metadata=...
+3. token for ANOTHER resource       HTTP 401  invalid_audience
+4. VALID token, correct audience    HTTP 200  -> MCP initialize OK: mcp-census 1.0.0
+5. /healthz (public)                HTTP 200  {"ok":true,"auth":"required"}
+```
+
+18 auth evals mint real RS256 tokens against a real JWKS and assert every refusal:
+wrong audience, absent audience, expired, wrong issuer, tampered signature, missing
+scope, malformed header, empty header.
 
 ## Scope and limits
 

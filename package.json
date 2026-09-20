@@ -1,21 +1,32 @@
 {
   "name": "@stillos/mcp-census-server",
   "version": "1.0.0",
-  "description": "An MCP server that audits other MCP servers. Live handshake probing, auth-posture classification, tool-surface enumeration and drift detection — built on a census of 33,489 servers.",
+  "description": "An MCP server that audits other MCP servers. Live handshake probing, auth-posture classification, tool-surface enumeration and drift detection \u2014 built on a census of 33,489 servers.",
   "license": "MIT",
   "type": "module",
-  "bin": { "mcp-census-server": "dist/index.js" },
+  "bin": {
+    "mcp-census-server": "dist/index.js"
+  },
   "main": "dist/index.js",
-  "files": ["dist", "README.md"],
-  "engines": { "node": ">=20" },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "evals": "node dist/evals/evals.js",
-    "typecheck": "tsc --noEmit"
+    "evals": "node dist/evals/evals.js && node dist/evals/auth-evals.js",
+    "typecheck": "tsc --noEmit",
+    "start:http": "node dist/src/http.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "jose": "^6.2.12",
     "zod": "^3.23.8"
   },
   "devDependencies": {
