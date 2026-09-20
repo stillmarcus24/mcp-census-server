@@ -56,7 +56,9 @@ export function protectedResourceMetadata(cfg: AuthConfig): Record<string, unkno
     authorization_servers: [cfg.issuer],
     bearer_methods_supported: ['header'],
     scopes_supported: cfg.requiredScopes ?? [],
-    resource_documentation: 'https://github.com/stillos/mcp-census-server#readme',
+    // Only advertised when the operator sets it. Shipping a hardcoded URL we do not
+    // control would publish a dead link in a discovery document clients actually fetch.
+    ...(process.env['MCP_RESOURCE_DOCS'] ? { resource_documentation: process.env['MCP_RESOURCE_DOCS'] } : {}),
   };
 }
 

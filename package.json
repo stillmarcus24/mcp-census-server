@@ -1,5 +1,5 @@
 {
-  "name": "@stillos/mcp-census-server",
+  "name": "mcp-census-server",
   "version": "1.0.0",
   "description": "An MCP server that audits other MCP servers. Live handshake probing, auth-posture classification, tool-surface enumeration and drift detection \u2014 built on a census of 33,489 servers.",
   "license": "MIT",

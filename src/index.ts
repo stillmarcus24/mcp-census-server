@@ -126,12 +126,17 @@ server.registerTool(
           install_surface_half_life_days: 32.5,
           sample: '2,705 real version transitions over 285 server-years of registry history',
           note: 'What a reviewer approves (invocation) is ~3.9x more stable than what actually runs (install).',
+          caveat: 'Computed over servers that have a release history; 61% of registry entries have ' +
+                  'exactly one version and have never changed. These rates describe ACTIVE servers, ' +
+                  'not the whole population.',
         },
         registry_hygiene: {
           active_entries_pointing_at_dead_endpoint_pct: 9.5,
           dead_and_over_180d_still_marked_active: '53 of 53',
+          active_entries_dead_excluding_largest_provider_pct: 6.5,
           note: 'Failure is correlated by provider namespace, not independent — two namespaces ' +
-                'accounted for 54.7% of all dead endpoints in the sample.',
+                'accounted for 54.7% of all dead endpoints, and one had 27 of 27 entries dead. ' +
+                'Use the 6.5% figure for any claim about the ecosystem generally.',
         },
       }, null, 2),
     }],

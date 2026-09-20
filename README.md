@@ -22,12 +22,20 @@ npm run evals        # 39 checks: contract, definition quality, and auth
 | `compare_tool_surfaces` | Did a server's tool surface change between two observations? |
 | `ecosystem_baseline` | Is what I just measured normal for this ecosystem? |
 
+All baseline figures carry their sample size and date. Two of them are sample-sensitive and
+say so in the tool output: the drift half-lives are computed over servers that have a real
+release history, so they describe active servers rather than the whole population; and the
+registry-hygiene rate falls from 9.5% to **6.5%** once the single largest hosting namespace
+is excluded, because dead endpoints are correlated by provider rather than independent.
+
 ## Four measurements that shaped the implementation
 
 **1. The `initialize` handshake is not optional.** A naive `tools/list` probe reports
 **7.5%** of registry endpoints as reachable. The identical population, probed with a
 correct handshake, reports **54.8%**. Skipping the handshake does not measure the
-ecosystem — it measures your client. Most published MCP reachability numbers are this bug.
+ecosystem — it measures your client. This is a failure mode worth naming because it is
+easy to hit and the two results look equally publishable; careful prior work in this area
+does handshake correctly, and independently arrived at the same ~52-55% figure.
 
 **2. A 401/403 is not evidence of authentication.** **61.7%** of refusals carry a CDN/WAF
 fingerprint (`cf-ray`, `x-vercel-id`, `x-amz-cf-id`). Counting those as "requires
