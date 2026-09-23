@@ -1,0 +1,523 @@
+{
+  "denominator_npm_backed_servers": 8845,
+  "total_registry_servers": 33489,
+  "closure_packages": 18407,
+  "bins": [
+    {
+      "lo": 0,
+      "hi": 1,
+      "count": 17991
+    },
+    {
+      "lo": 1,
+      "hi": 5,
+      "count": 301
+    },
+    {
+      "lo": 5,
+      "hi": 10,
+      "count": 25
+    },
+    {
+      "lo": 10,
+      "hi": 20,
+      "count": 0
+    },
+    {
+      "lo": 20,
+      "hi": 30,
+      "count": 0
+    },
+    {
+      "lo": 30,
+      "hi": 40,
+      "count": 0
+    },
+    {
+      "lo": 40,
+      "hi": 50,
+      "count": 0
+    },
+    {
+      "lo": 50,
+      "hi": 60,
+      "count": 0
+    },
+    {
+      "lo": 60,
+      "hi": 70,
+      "count": 0
+    },
+    {
+      "lo": 70,
+      "hi": 80,
+      "count": 87
+    },
+    {
+      "lo": 80,
+      "hi": 90,
+      "count": 3
+    },
+    {
+      "lo": 90,
+      "hi": 100.01,
+      "count": 0
+    }
+  ],
+  "chokepoints": [
+    {
+      "pkg": "zod",
+      "servers": 7433,
+      "pct": 84.04
+    },
+    {
+      "pkg": "once",
+      "servers": 7118,
+      "pct": 80.47
+    },
+    {
+      "pkg": "wrappy",
+      "servers": 7118,
+      "pct": 80.47
+    },
+    {
+      "pkg": "ms",
+      "servers": 7074,
+      "pct": 79.98
+    },
+    {
+      "pkg": "@hono/node-server",
+      "servers": 7074,
+      "pct": 79.98
+    },
+    {
+      "pkg": "debug",
+      "servers": 7066,
+      "pct": 79.89
+    },
+    {
+      "pkg": "jose",
+      "servers": 7051,
+      "pct": 79.72
+    },
+    {
+      "pkg": "es-errors",
+      "servers": 7043,
+      "pct": 79.63
+    },
+    {
+      "pkg": "gopd",
+      "servers": 7041,
+      "pct": 79.6
+    },
+    {
+      "pkg": "es-define-property",
+      "servers": 7041,
+      "pct": 79.6
+    },
+    {
+      "pkg": "path-key",
+      "servers": 7034,
+      "pct": 79.53
+    },
+    {
+      "pkg": "function-bind",
+      "servers": 7033,
+      "pct": 79.51
+    },
+    {
+      "pkg": "hasown",
+      "servers": 7033,
+      "pct": 79.51
+    },
+    {
+      "pkg": "call-bind-apply-helpers",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "get-intrinsic",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "get-proto",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "dunder-proto",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "es-object-atoms",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "has-symbols",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "math-intrinsics",
+      "servers": 7031,
+      "pct": 79.49
+    },
+    {
+      "pkg": "which",
+      "servers": 7029,
+      "pct": 79.47
+    },
+    {
+      "pkg": "isexe",
+      "servers": 7029,
+      "pct": 79.47
+    },
+    {
+      "pkg": "eventsource-parser",
+      "servers": 7028,
+      "pct": 79.46
+    },
+    {
+      "pkg": "mime-db",
+      "servers": 7027,
+      "pct": 79.45
+    },
+    {
+      "pkg": "mime-types",
+      "servers": 7026,
+      "pct": 79.43
+    },
+    {
+      "pkg": "cross-spawn",
+      "servers": 7026,
+      "pct": 79.43
+    },
+    {
+      "pkg": "shebang-command",
+      "servers": 7026,
+      "pct": 79.43
+    },
+    {
+      "pkg": "shebang-regex",
+      "servers": 7026,
+      "pct": 79.43
+    },
+    {
+      "pkg": "eventsource",
+      "servers": 7024,
+      "pct": 79.41
+    },
+    {
+      "pkg": "pkce-challenge",
+      "servers": 7023,
+      "pct": 79.4
+    },
+    {
+      "pkg": "safer-buffer",
+      "servers": 7016,
+      "pct": 79.32
+    },
+    {
+      "pkg": "iconv-lite",
+      "servers": 7015,
+      "pct": 79.31
+    },
+    {
+      "pkg": "inherits",
+      "servers": 7004,
+      "pct": 79.19
+    },
+    {
+      "pkg": "call-bound",
+      "servers": 7003,
+      "pct": 79.17
+    },
+    {
+      "pkg": "content-type",
+      "servers": 7001,
+      "pct": 79.15
+    },
+    {
+      "pkg": "side-channel",
+      "servers": 7000,
+      "pct": 79.14
+    },
+    {
+      "pkg": "object-inspect",
+      "servers": 7000,
+      "pct": 79.14
+    },
+    {
+      "pkg": "side-channel-list",
+      "servers": 7000,
+      "pct": 79.14
+    },
+    {
+      "pkg": "side-channel-map",
+      "servers": 7000,
+      "pct": 79.14
+    },
+    {
+      "pkg": "side-channel-weakmap",
+      "servers": 7000,
+      "pct": 79.14
+    },
+    {
+      "pkg": "cookie",
+      "servers": 6999,
+      "pct": 79.13
+    },
+    {
+      "pkg": "vary",
+      "servers": 6998,
+      "pct": 79.12
+    },
+    {
+      "pkg": "path-to-regexp",
+      "servers": 6998,
+      "pct": 79.12
+    },
+    {
+      "pkg": "negotiator",
+      "servers": 6998,
+      "pct": 79.12
+    },
+    {
+      "pkg": "qs",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "depd",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "etag",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "escape-html",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "http-errors",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "setprototypeof",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "statuses",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "toidentifier",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "ipaddr.js",
+      "servers": 6997,
+      "pct": 79.11
+    },
+    {
+      "pkg": "encodeurl",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "fresh",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "on-finished",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "ee-first",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "parseurl",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "accepts",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "type-is",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "media-typer",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "bytes",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "raw-body",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "content-disposition",
+      "servers": 6996,
+      "pct": 79.1
+    },
+    {
+      "pkg": "hono",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "express",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "send",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "range-parser",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "router",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "is-promise",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "proxy-addr",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "forwarded",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "body-parser",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "finalhandler",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "serve-static",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "cookie-signature",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "merge-descriptors",
+      "servers": 6995,
+      "pct": 79.08
+    },
+    {
+      "pkg": "fast-deep-equal",
+      "servers": 6908,
+      "pct": 78.1
+    },
+    {
+      "pkg": "require-from-string",
+      "servers": 6908,
+      "pct": 78.1
+    },
+    {
+      "pkg": "ajv",
+      "servers": 6904,
+      "pct": 78.06
+    },
+    {
+      "pkg": "fast-uri",
+      "servers": 6904,
+      "pct": 78.06
+    },
+    {
+      "pkg": "json-schema-traverse",
+      "servers": 6904,
+      "pct": 78.06
+    },
+    {
+      "pkg": "object-assign",
+      "servers": 6898,
+      "pct": 77.99
+    },
+    {
+      "pkg": "cors",
+      "servers": 6895,
+      "pct": 77.95
+    },
+    {
+      "pkg": "ip-address",
+      "servers": 6887,
+      "pct": 77.86
+    },
+    {
+      "pkg": "ajv-formats",
+      "servers": 6879,
+      "pct": 77.77
+    },
+    {
+      "pkg": "express-rate-limit",
+      "servers": 6876,
+      "pct": 77.74
+    },
+    {
+      "pkg": "zod-to-json-schema",
+      "servers": 6875,
+      "pct": 77.73
+    },
+    {
+      "pkg": "json-schema-typed",
+      "servers": 6868,
+      "pct": 77.65
+    },
+    {
+      "pkg": "@modelcontextprotocol/sdk",
+      "servers": 6867,
+      "pct": 77.64
+    }
+  ],
+  "empty_band": {
+    "from": 9.93,
+    "to": 77.64
+  }
+}

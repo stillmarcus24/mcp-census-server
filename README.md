@@ -111,6 +111,17 @@ Verified live against a running server with real minted tokens:
 wrong audience, absent audience, expired, wrong issuer, tampered signature, missing
 scope, malformed header, empty header.
 
+## Denominators
+
+Population percentages in this ecosystem swing 3.79x on framing alone, and the
+registry splits into three classes rather than two. [`DENOMINATORS.md`](DENOMINATORS.md)
+is the reference convention, with a zero-dependency tool that reconciles two scans:
+
+```bash
+node tools/denominator_frames.mjs selftest      # 18 known-answer checks
+node tools/denominator_frames.mjs frames --exhibiting 6867
+```
+
 ## Scope and limits
 
 - Read-only. Lists tools on a target; never invokes them.
