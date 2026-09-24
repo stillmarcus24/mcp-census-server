@@ -1,5 +1,7 @@
 # mcp-census-server
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/stillmarcus24/mcp-census-server)](https://m8ven.ai/mcp/stillmarcus24/mcp-census-server)
+
 An MCP server that audits other MCP servers.
 
 Built in TypeScript on `@modelcontextprotocol/sdk`, under `strict` with
