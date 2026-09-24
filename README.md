@@ -1,6 +1,6 @@
 # mcp-census-server
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/stillmarcus24/mcp-census-server)](https://m8ven.ai/mcp/stillmarcus24/mcp-census-server)
+[![M8ven Score](https://m8ven.ai/badge/mcp/stillmarcus24-mcp-census-server-67eyxj?v=68fd53cd9f0bfb9ef730ca4511ffbd9a)](https://m8ven.ai/mcp/stillmarcus24-mcp-census-server-67eyxj)
 
 An MCP server that audits other MCP servers.
 
