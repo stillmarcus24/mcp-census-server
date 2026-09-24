@@ -38,6 +38,12 @@ server.registerTool(
       'CANNOT determine: whether a WAF_BLOCKED or AUTH_REQUIRED server would expose tools to an ' +
       'authorized caller — pass `bearer` to find out. Does not execute any tool on the target; ' +
       'it only lists them.',
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: true,
+    },
     inputSchema: {
       url: urlArg,
       bearer: z.string().optional().describe(
@@ -68,6 +74,12 @@ server.registerTool(
       'reviewed once can change the tools it exposes at any time, and the MCP registry publishes no ' +
       'tool list at all, so there is no authority to compare against except a prior observation. ' +
       'CANNOT determine intent — a changed surface is not evidence of compromise, only of change.',
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+    },
     inputSchema: {
       before: z.array(z.string()).describe('Tool names from the earlier probe.'),
       after: z.array(z.string()).describe('Tool names from the later probe.'),
@@ -102,6 +114,12 @@ server.registerTool(
       'when interpreting a single probe. All figures are observations with stated sample sizes and ' +
       'dates, not estimates. Use this to answer "is what I just measured normal?". ' +
       'CANNOT determine anything about a specific server — it is population context only.',
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+    },
     inputSchema: {},
   },
   async () => ({
