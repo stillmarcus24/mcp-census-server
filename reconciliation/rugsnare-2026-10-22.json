@@ -1,0 +1,1246 @@
+{
+  "schema": "stillos.reconciliation.v2",
+  "subject": "rugsnare drift-watch corpus (Paraphern)",
+  "thread": "https://github.com/snyk/agent-scan/issues/482",
+  "their_artifacts": [
+    "https://github.com/Paraphern/rugsnare/blob/main/audits/drift-watch/registry-mapping.json",
+    "https://github.com/Paraphern/rugsnare/blob/main/audits/drift-watch/2026-10-17.md"
+  ],
+  "supersedes": "rugsnare-2026-10-22.json — that artifact joined ONLY the hosted axis and concluded we had nothing to contribute. Wrong conclusion from correct hosted facts: their corpus is npm packages, and the package-keyed series was never joined.",
+  "axes_declared": {
+    "package": {
+      "series": [
+        "state/mcp-census/capability-delta.jsonl",
+        "state/mcp-census/description-delta.jsonl"
+      ],
+      "key": "exact npm package name",
+      "indexed_by": "version pair (from -> to)",
+      "matches_their_vantage": true
+    },
+    "hosted": {
+      "series": [
+        "state/mcp-census/surface-clock/latest-surfaces.json",
+        "state/mcp-census/surface-clock/surface-events.jsonl"
+      ],
+      "key": "exact endpoint URL",
+      "indexed_by": "wall-clock observation",
+      "matches_their_vantage": false
+    }
+  },
+  "measured_at_utc": "2026-10-22T19:40:08.749Z",
+  "is_current_state": false,
+  "exact_match_law": "Package names and endpoint URLs are matched EXACTLY, never by substring. A substring pass put @ryancardin/noaa-tides-currents-mcp-server under `currents` and @bitbybit-dev/mcp (a CAD library) under `bybit`. A join whose false positives look like corroboration is worse than an empty result.",
+  "classification_law": "Every changed window is classified CAPABILITY_CHANGE, BUNDLE_NOISE or HASH_ONLY. A bundler reshuffle and an unexplained hash move are reported as themselves, never counted as capability findings.",
+  "totals": {
+    "their_corpus": 22,
+    "package_axis": {
+      "covered": 9,
+      "version_pair_rows": 65,
+      "capability_changes": 17,
+      "bundle_noise": 1,
+      "hash_only": 4
+    },
+    "hosted_axis": {
+      "declaring_endpoint": 5,
+      "states": {
+        "WAF": 2,
+        "TOOLS_DENIED": 1,
+        "NOT_UNDER_CLOCK": 1,
+        "LIVE": 1
+      },
+      "surface_events": 2,
+      "silent_changes": 0
+    }
+  },
+  "rows": [
+    {
+      "slug": "hostinger",
+      "their_registry_id": "io.github.hostinger/hostinger-api-mcp",
+      "their_note": "official; registry version line 0.1.x-1.x is disjoint from npm 2.x (two separate artifacts under one name)",
+      "npm_package": "hostinger-api-mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 1,
+        "endpoints": [
+          {
+            "url": "https://mcp.hostinger.com",
+            "stillos_state": "WAF",
+            "surface_events": 0,
+            "silent_changes": 0
+          }
+        ]
+      }
+    },
+    {
+      "slug": "currents",
+      "their_registry_id": "io.github.pipeworx-io/currents",
+      "their_note": "pipeworx is the Currents company",
+      "npm_package": "@currents/mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 1,
+        "endpoints": [
+          {
+            "url": "https://gateway.pipeworx.io/currents/mcp",
+            "stillos_state": "TOOLS_DENIED",
+            "surface_events": 0,
+            "silent_changes": 0
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mongodb",
+      "their_registry_id": "io.github.mongodb-js/mongodb-mcp-server",
+      "their_note": "official",
+      "npm_package": "mongodb-mcp-server",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 6,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "netlify",
+      "their_registry_id": null,
+      "their_note": "all entries are app.netlify.* format (hosted namespace), not io.github.*; no official npm @netlify/mcp entry",
+      "npm_package": "@netlify/mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "chrome-devtools",
+      "their_registry_id": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "their_note": "official; npm and registry track same artifact",
+      "npm_package": "chrome-devtools-mcp",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 4,
+        "changed_windows": 2,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 1,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "1.8.0",
+            "to": "1.9.0",
+            "categories": {},
+            "magnitudes": {},
+            "classification": "HASH_ONLY",
+            "note": "content hash moved but no tracked category did — reported as-is, not as a finding"
+          },
+          {
+            "from": "1.10.1",
+            "to": "1.11.0",
+            "categories": {},
+            "magnitudes": {
+              "exec_delta": 75,
+              "fs_delta": 2,
+              "net_delta": 7
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "1.11.0",
+            "to": "1.12.0",
+            "categories": {
+              "new_hosts": [
+                "agenticresourcediscovery.org",
+                "internal.corp",
+                "mathiasbynens.be",
+                "raw.githubusercontent.com",
+                "spec.openapis.org",
+                "tools.ietf.org",
+                "www.safaribooksonline.com",
+                "x",
+                "yargs.js.org"
+              ],
+              "new_env": [
+                "NODE_DEBUG",
+                "YARGS_MIN_NODE_VERSION"
+              ],
+              "lost_hosts": [
+                "dequeuniversi",
+                "l"
+              ]
+            },
+            "magnitudes": {
+              "exec_delta": 7,
+              "net_delta": 44,
+              "eval_delta": 1
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "browserstack",
+      "their_registry_id": "io.github.browserstack/mcp-server",
+      "their_note": "official; registry latest 2.2.3 matches npm",
+      "npm_package": "@browserstack/mcp-server",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 20,
+        "changed_windows": 9,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 2,
+        "description_rows": 2,
+        "windows": [
+          {
+            "from": "1.5.0-beta.17",
+            "to": "1.5.0-beta.18",
+            "categories": {
+              "new_hosts": [
+                "test-management-preprod.bsstag.com"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "1.5.0-beta.22",
+            "to": "1.5.0",
+            "categories": {
+              "new_hosts": [
+                "ai-platform-service.bsstag.com",
+                "auth-preprod.bsstag.com",
+                "auth.browserstack.com",
+                "workflows.browserstack.com"
+              ],
+              "new_env": [
+                "ASK_BROWSERSTACK_ALLOW_REMOTE_RELAY",
+                "ASK_BROWSERSTACK_ATLAS_URL",
+                "ASK_BROWSERSTACK_AUTH_TOKEN_URL",
+                "ASK_BROWSERSTACK_DISABLED"
+              ],
+              "lost_hosts": [
+                "load-api.browserstack.com",
+                "staging.example.com",
+                "test-management-preprod.bsstag.com"
+              ],
+              "lost_env": [
+                "CAPABILITY_REGISTRY_BASE_URLS",
+                "CAPABILITY_REGISTRY_DISABLED",
+                "CAPABILITY_REGISTRY_ENV",
+                "CAPABILITY_REGISTRY_INDEX",
+                "CAPABILITY_REGISTRY_INDEX_DIR"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": 6
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "1.5.1",
+            "to": "2.0.0",
+            "categories": {
+              "new_hosts": [
+                "staging.example.com"
+              ],
+              "new_env": [
+                "CAPABILITY_REGISTRY_BASE_URLS",
+                "CAPABILITY_REGISTRY_DISABLED",
+                "CAPABILITY_REGISTRY_ENV",
+                "CAPABILITY_REGISTRY_INDEX",
+                "CAPABILITY_REGISTRY_INDEX_DIR"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": 17
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.0.0",
+            "to": "2.1.0",
+            "categories": {
+              "new_env": [
+                "ASK_BROWSERSTACK_RELAY_TRANSPORT"
+              ],
+              "lost_env": [
+                "ASK_BROWSERSTACK_ALLOW_REMOTE_RELAY"
+              ]
+            },
+            "magnitudes": {},
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.1.1",
+            "to": "2.2.0-beta.1",
+            "categories": {
+              "new_hosts": [
+                "api-observability-eu.browserstack.com",
+                "api-observability-in.browserstack.com",
+                "load-api.browserstack.com"
+              ],
+              "new_env": [
+                "ASK_BROWSERSTACK_ALLOW_REMOTE_RELAY",
+                "CAPABILITY_REGISTRY_AUTH_TOKEN_URL"
+              ],
+              "lost_env": [
+                "ASK_BROWSERSTACK_RELAY_TRANSPORT"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": 8
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.2.0-beta.1",
+            "to": "2.2.0-beta.2",
+            "categories": {
+              "new_env": [
+                "ASK_BROWSERSTACK_RELAY_TRANSPORT"
+              ],
+              "lost_hosts": [
+                "load-api.browserstack.com"
+              ],
+              "lost_env": [
+                "ASK_BROWSERSTACK_ALLOW_REMOTE_RELAY"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": -1
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.2.0-beta.2",
+            "to": "2.2.0",
+            "categories": {
+              "new_hosts": [
+                "load-api.browserstack.com"
+              ],
+              "lost_hosts": [
+                "api-observability-eu.browserstack.com",
+                "api-observability-in.browserstack.com"
+              ],
+              "lost_env": [
+                "CAPABILITY_REGISTRY_AUTH_TOKEN_URL"
+              ]
+            },
+            "magnitudes": {
+              "net_delta": -6
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.2.1",
+            "to": "2.2.2",
+            "categories": {},
+            "magnitudes": {},
+            "classification": "HASH_ONLY",
+            "note": "content hash moved but no tracked category did — reported as-is, not as a finding"
+          },
+          {
+            "from": "2.3.0-beta.2",
+            "to": "2.3.0-beta.3",
+            "categories": {
+              "new_hosts": [
+                "www.example.com"
+              ],
+              "lost_hosts": [
+                "www.bstackdemo.com"
+              ]
+            },
+            "magnitudes": {},
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.3.0-beta.3",
+            "to": "2.3.0-beta.4",
+            "categories": {},
+            "magnitudes": {
+              "net_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "2.3.0-beta.5",
+            "to": "2.3.0-beta.6",
+            "categories": {},
+            "magnitudes": {},
+            "classification": "HASH_ONLY",
+            "note": "content hash moved but no tracked category did — reported as-is, not as a finding"
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 1,
+        "endpoints": [
+          {
+            "url": "https://mcp.browserstack.com/mcp",
+            "stillos_state": "NOT_UNDER_CLOCK",
+            "surface_events": 0,
+            "silent_changes": 0
+          }
+        ]
+      }
+    },
+    {
+      "slug": "shopify",
+      "their_registry_id": null,
+      "their_note": "no official @shopify/dev-mcp entry; community shopify MCP servers exist",
+      "npm_package": "@shopify/dev-mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "sap-fiori",
+      "their_registry_id": "io.github.SAP/fiori-mcp-server",
+      "their_note": "official; registry versions 0.6.49-1.12.0 lag behind npm 1.13+ (maintainer has not published recent versions to registry)",
+      "npm_package": "@sap-ux/fiori-mcp-server",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 17,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 1,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "1.14.0",
+            "to": "1.15.0",
+            "categories": {},
+            "magnitudes": {},
+            "classification": "HASH_ONLY",
+            "note": "content hash moved but no tracked category did — reported as-is, not as a finding"
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "apify",
+      "their_registry_id": null,
+      "their_note": "registry has com.apify/apify-mcp-server (versions 0.10-0.15) but our corpus tracks @apify/actors-mcp-server (0.16-0.18) - different artifacts, different npm packages",
+      "npm_package": "@apify/actors-mcp-server",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "heroku",
+      "their_registry_id": null,
+      "their_note": "no official entry",
+      "npm_package": "@heroku/mcp-server",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "context7",
+      "their_registry_id": "io.github.upstash/context7",
+      "their_note": "official",
+      "npm_package": "@upstash/context7-mcp",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 8,
+        "changed_windows": 1,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "4.1.3",
+            "to": "4.2.0",
+            "categories": {
+              "new_env": [
+                "MCP_AUTH_ENFORCEMENT",
+                "MCP_OAUTH_TOKEN_VALIDATION"
+              ]
+            },
+            "magnitudes": {
+              "exec_delta": 1,
+              "net_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 1,
+        "endpoints": [
+          {
+            "url": "https://mcp.context7.com/mcp",
+            "stillos_state": "LIVE",
+            "surface_events": 2,
+            "silent_changes": 0
+          }
+        ]
+      }
+    },
+    {
+      "slug": "supabase",
+      "their_registry_id": null,
+      "their_note": "no official entry; io.github.mcp-dir/supabase-mcp and io.github.mrfentmen/supabase-mcp are community; our npm @supabase/mcp-server-supabase does not appear to be registered",
+      "npm_package": "@supabase/mcp-server-supabase",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 2,
+        "changed_windows": 2,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "0.12.0",
+            "to": "0.13.0",
+            "categories": {
+              "new_deps": [
+                "@modelcontextprotocol/node"
+              ],
+              "new_hosts": [
+                "127.0.0.1",
+                "api.supabase.green",
+                "supabase.green"
+              ]
+            },
+            "magnitudes": {
+              "exec_delta": 8,
+              "net_delta": 15
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "0.13.0",
+            "to": "0.14.0",
+            "categories": {},
+            "magnitudes": {
+              "net_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "azure-devops",
+      "their_registry_id": null,
+      "their_note": "not found in registry search",
+      "npm_package": "@azure-devops/mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "notion",
+      "their_registry_id": null,
+      "their_note": "no official @notionhq entry; community alternatives exist",
+      "npm_package": "@notionhq/notion-mcp-server",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "sentry",
+      "their_registry_id": "io.github.getsentry/sentry-mcp",
+      "their_note": "official; registry lists npm @sentry/mcp-server as the package - confirmed same artifact as our corpus",
+      "npm_package": "@sentry/mcp-server",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 3,
+        "changed_windows": 1,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "0.39.0",
+            "to": "0.40.0",
+            "categories": {},
+            "magnitudes": {
+              "exec_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 1,
+        "endpoints": [
+          {
+            "url": "https://mcp.sentry.dev/mcp",
+            "stillos_state": "WAF",
+            "surface_events": 0,
+            "silent_changes": 0
+          }
+        ]
+      }
+    },
+    {
+      "slug": "launchdarkly",
+      "their_registry_id": null,
+      "their_note": "io.github.pipeworx-io/launchdarkly exists but uncertain provenance",
+      "npm_package": "@launchdarkly/mcp-server",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "transcend",
+      "their_registry_id": null,
+      "their_note": "not in registry; searched transcend, transcend mcp - zero results",
+      "npm_package": "@transcend-io/mcp-server-assessment",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "hubspot",
+      "their_registry_id": null,
+      "their_note": "no official HubSpot entry; community alternatives exist",
+      "npm_package": "@hubspot/mcp-server",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "ui5",
+      "their_registry_id": "io.github.UI5/mcp-server",
+      "their_note": "official; registry latest 0.3.2 matches npm latest; confirmed same artifact",
+      "npm_package": "@ui5/mcp-server",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 4,
+        "changed_windows": 2,
+        "bundle_noise_windows": 1,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": [
+          {
+            "from": "0.2.19",
+            "to": "0.2.20",
+            "categories": {},
+            "magnitudes": {
+              "net_delta": 68
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "0.2.20",
+            "to": "0.3.0",
+            "categories": {},
+            "magnitudes": {
+              "net_delta": 16,
+              "eval_delta": 2
+            },
+            "classification": "CAPABILITY_CHANGE",
+            "note": null
+          },
+          {
+            "from": "0.3.0",
+            "to": "0.3.1",
+            "categories": {
+              "lost_hosts": [
+                "-asdf.com",
+                "...",
+                ".com",
+                "0.0.0.127",
+                "0.0.0.169",
+                "127.0.0.1",
+                "169.254.169.254",
+                "262.ecma-international.org",
+                "a",
+                "a.b.c",
+                "a.com",
+                "aaa",
+                "abc.com",
+                "accounts.google.com",
+                "admin.example.com",
+                "ajv.js.org",
+                "aka.ms",
+                "allowed.com",
+                "allowed.example",
+                "andidittrich.com",
+                "anonymous",
+                "anthropic.com",
+                "api.com",
+                "api.example.com",
+                "api.flickr.com",
+                "api.jquery.com",
+                "app.com",
+                "app.example.com",
+                "asdf.c",
+                "asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf.com",
+                "aslkfjdalsdfkjaf",
+                "attacker.com",
+                "attacker.example",
+                "avajs.dev",
+                "aws.amazon.com",
+                "babel.dev",
+                "backend-service.com",
+                "backup-api.com",
+                "badassjs.com",
+                "basarat.gitbook.io",
+                "base.com",
+                "base64.guru",
+                "beaugunderson.com",
+                "benlesh.com",
+                "benweaver.com",
+                "bit.cloud",
+                "bit.dev",
+                "blog.izs.me",
+                "blog.stevenlevithan.com",
+                "blogs.msdn.microsoft.com",
+                "bugs.chromium.org",
+                "bugzilla.mozilla.org",
+                "bun.sh",
+                "cartercole.com",
+                "cats.com",
+                "cdnjs.cloudflare.com",
+                "cherne.net",
+                "classic.yarnpkg.com",
+                "cldr.unicode.org",
+                "code.google.com",
+                "code.jquery.com",
+                "codeload.",
+                "codesleuth.co.uk",
+                "compton.nu",
+                "custom-registry.com",
+                "datatracker.ietf.org",
+                "debuggable.com",
+                "dev.w3.org",
+                "developer.mozilla.org",
+                "developers.cloudflare.com",
+                "developers.google.com",
+                "docs.aws.amazon.com",
+                "docs.google.com",
+                "docs.oasis-open.org",
+                "docs.python.org",
+                "dominictarr.com",
+                "ejs.co",
+                "empty.invalid",
+                "en.m.wikipedia.org",
+                "en.wikipedia.org",
+                "encoding.spec.whatwg.org",
+                "evil.com",
+                "ex",
+                "exa",
+                "example.",
+                "example.com",
+                "example.invalid",
+                "example.net.il",
+                "example.org",
+                "examplecom",
+                "examples.com",
+                "experience.sap.com",
+                "express-rate-limit.github.io",
+                "express-rate-limit.mintlify.app",
+                "expressjs.com",
+                "f2e.us",
+                "fastify.org",
+                "feross.org",
+                "fetch.spec.whatwg.org",
+                "fiznool.com",
+                "foo",
+                "foo.bar",
+                "foo.com",
+                "fulcio.sigstore.dev",
+                "geojson.org",
+                "ghaiklor.github.io",
+                "gist.githubusercontent.com",
+                "git-scm.com",
+                "git.new",
+                "good.com",
+                "google.com",
+                "got-ravings.blogspot.com",
+                "gulpjs.com",
+                "h3manth.com",
+                "hackerone.com",
+                "help.sap.com",
+                "heyhey.to",
+                "hono.dev",
+                "host.example.com",
+                "hsivonen.fi",
+                "html.spec.whatwg.org",
+                "html5sec.org",
+                "i.am.charlike.online",
+                "icu-project.org",
+                "indigounited.com",
+                "isaacs.github.io",
+                "itnext.io",
+                "izs.me",
+                "jacksenechal.com",
+                "jbgutierrez.info",
+                "jes.st",
+                "jmrware.com",
+                "joda-time.sourceforge.net",
+                "johnresig.com",
+                "jongleberry.com",
+                "jquery.com",
+                "jsperf.com",
+                "juliangruber.com",
+                "kemitchell.com",
+                "keygen.sh",
+                "kolarik.sk",
+                "kornel.ski",
+                "learn.jquery.com",
+                "learn.microsoft.com",
+                "leoreavidar.com",
+                "ljharb.codes",
+                "lodash.com",
+                "lovell.info",
+                "lukeed.com",
+                "mathiasbynens.be",
+                "mcp-example.com",
+                "mcp.inkeep.com",
+                "me.abelcheung.org",
+                "medium.com",
+                "mimesniff.spec.whatwg.org",
+                "modelcontextprotocol.io",
+                "moztw.org",
+                "mrmlnc.com",
+                "mths.be",
+                "my-web-server.com",
+                "my.local",
+                "my.server",
+                "mythemeserver.com",
+                "n8.io",
+                "nfriedly.com",
+                "niftylettuce.com",
+                "no-color.org",
+                "normal-website.com",
+                "npm.im",
+                "nvlpubs.nist.gov",
+                "oauth2.sigstore.dev",
+                "ogp.me",
+                "opencollective.com",
+                "openid.net",
+                "other.com",
+                "pnpm.io",
+                "portal.acm.org",
+                "pubs.opengroup.org",
+                "qntm.org",
+                "qunitjs.com",
+                "registry.corp",
+                "registry.mycorp.com",
+                "rekor.sigstore.dev",
+                "robrich.org",
+                "rocha.la",
+                "rtsys.informatik.uni-kiel.de",
+                "rumkin.com",
+                "safe.example",
+                "sap.github.io",
+                "schemas.microsoft.com",
+                "schemas.sap.com",
+                "scn.sap.com",
+                "searchbeam.jit.su",
+                "semver.org",
+                "sindresorhus.com",
+                "sites.google.com",
+                "slow-backend-server",
+                "solothought.com",
+                "solothought.work",
+                "source.icu-project.org",
+                "spec.modelcontextprotocol.io",
+                "spec.openapis.org",
+                "specifications.freedesktop.org",
+                "speedtest.net",
+                "stackoverflow.com",
+                "sub.example.co.uk",
+                "sub.example.com",
+                "substack.net",
+                "superchupu.dev",
+                "superuser.com",
+                "tc39.es",
+                "test.com",
+                "thekevinscott.com",
+                "threejs.org",
+                "tidelift.com",
+                "tjholowaychuk.com",
+                "tools.ietf.org",
+                "tootallnate.net",
+                "trusted.com",
+                "trusted.example",
+                "trusted.test",
+                "ts-ast-viewer.com",
+                "tuf-repo-cdn.sigstore.dev",
+                "tuvistavie.com",
+                "twitter.com",
+                "ui5.github.io",
+                "ui5.sap",
+                "ultcombo.js.org",
+                "unicode-org.github.io",
+                "unicode.org",
+                "unpkg.com",
+                "unstats.un.org",
+                "url.spec.whatwg.org",
+                "user",
+                "w3c.github.io",
+                "webpack.js.org",
+                "weibo.com",
+                "wiki.debian.org",
+                "wiki.laptop.org",
+                "www.actionshrimp.com",
+                "www.apache.org",
+                "www.bitstorm.it",
+                "www.cloudflare.com",
+                "www.creynders.be",
+                "www.currency-iso.org",
+                "www.ecma-international.org",
+                "www.emotive.com",
+                "www.euclideanspace.com",
+                "www.example.com",
+                "www.fileformat.info",
+                "www.gamedev.net",
+                "www.hacksrus.net",
+                "www.haible.de",
+                "www.iana.org",
+                "www.ietf.org",
+                "www.iso.org",
+                "www.ixti.net",
+                "www.json.org",
+                "www.khngai.com",
+                "www.khronos.org",
+                "www.kurtraschke.com",
+                "www.mycorp.com",
+                "www.oauth.com",
+                "www.odata.org",
+                "www.ogcio.gov.hk",
+                "www.patreon.com",
+                "www.postgresql.org",
+                "www.researchgate.net",
+                "www.rfc-editor.org",
+                "www.robvanderwoude.com",
+                "www.safaribooksonline.com",
+                "www.salsitasoft.com",
+                "www.saltwaterc.eu",
+                "www.sap.com",
+                "www.typescriptlang.org",
+                "www.unicode.org",
+                "www.unix.org",
+                "www.yaml.org",
+                "www.zhenghao.io",
+                "www1.example.com",
+                "www8.plala.or.jp",
+                "xhr.spec.whatwg.org",
+                "xivilization.net",
+                "xx.b.c",
+                "yaml.org",
+                "yargs.js.org",
+                "yarnpkg.com",
+                "zacharyscott.net",
+                "zod.dev"
+              ],
+              "lost_env": [
+                "ACTIONS_ID_TOKEN_REQUEST_TOKEN",
+                "ACTIONS_ID_TOKEN_REQUEST_URL",
+                "APPDATA",
+                "BROWSER",
+                "C",
+                "CI",
+                "COLUMNS",
+                "COMSPEC",
+                "DEBUG",
+                "DEBUG_NOPT",
+                "DESTDIR",
+                "EDITOR",
+                "FOO",
+                "FORCE_COLOR",
+                "GIT_ASKPASS",
+                "GIT_CONFIG_GLOBAL",
+                "GIT_SSH_COMMAND",
+                "GRACEFUL_FS_PLATFORM",
+                "GYP_MSVS_OVERRIDE_PATH",
+                "GYP_MSVS_VERSION",
+                "HOME",
+                "HOMEDRIVE",
+                "HOMEPATH",
+                "JOBS",
+                "LANG",
+                "LC_ALL",
+                "LC_CTYPE",
+                "LNAME",
+                "LOCALAPPDATA",
+                "LOGNAME",
+                "MAKE",
+                "MCP_AUTH_PORT",
+                "MCP_CLIENT_ALGORITHM",
+                "MCP_CLIENT_ID",
+                "MCP_CLIENT_PRIVATE_KEY_PEM",
+                "MCP_CLIENT_SECRET",
+                "MCP_DANGEROUSLY_ALLOW_INSECURE_ISSUER_URL",
+                "MCP_PORT",
+                "MCP_SERVER_URL",
+                "NODEJS_ORG_MIRROR",
+                "NODE_DEBUG",
+                "NODE_ENV",
+                "NODE_GYP_FORCE_PYTHON",
+                "NODE_GYP_NULL_LOGGER",
+                "NODE_TLS_REJECT_UNAUTHORIZED",
+                "NOPROXY",
+                "NOPT_DEBUG",
+                "NO_COLOR",
+                "NO_DEPRECATION",
+                "OSTYPE",
+                "P",
+                "PATH",
+                "PATHEXT",
+                "PORT",
+                "PREFIX",
+                "PYTHON",
+                "PYTHONPATH",
+                "S",
+                "SHELL",
+                "SIGSTORE_ID_TOKEN",
+                "SUDO_GID",
+                "SUDO_UID",
+                "SYSTEMROOT",
+                "TERM",
+                "TESTING_TAR_FAKE_PLATFORM",
+                "TEST_GRACEFUL_FS_GLOBAL_PATCH",
+                "TINYGLOBBY_DEBUG",
+                "TRACE_DEPRECATION",
+                "TRAVIS",
+                "TSS_LOG",
+                "TSS_TRACE",
+                "UI5LINT_COVERAGE_REPORT",
+                "UI5LINT_FIX_DRY_RUN",
+                "UI5LINT_PROFILE",
+                "UI5LINT_WRITE_TRANSFORMED_SOURCES",
+                "UI5_LOG_LVL",
+                "UI5_MAVEN_SNAPSHOT_ENDPOINT_URL",
+                "UI5_PROJECT_USE_FRAMEWORK_SOURCES",
+                "USER",
+                "USERNAME",
+                "USERPROFILE",
+                "VCINSTALLDIR",
+                "VISUAL",
+                "VSCMD_VER",
+                "W",
+                "XDG_CACHE_HOME",
+                "XDG_CONFIG_HOME",
+                "XDG_DATA_HOME",
+                "YARGS_MIN_NODE_VERSION",
+                "ZOSLIB_INCLUDES",
+                "_ISEXE_TEST_PLATFORM_",
+                "_PACOTE_NO_PREPARE_",
+                "__FAKE_FS_O_FILENAME__",
+                "__FAKE_PLATFORM__",
+                "__MINIMATCH_TESTING_PLATFORM__"
+              ]
+            },
+            "magnitudes": {
+              "exec_delta": -486,
+              "fs_delta": -198,
+              "net_delta": -18391,
+              "eval_delta": -37
+            },
+            "classification": "BUNDLE_NOISE",
+            "note": "diff dominated by bundled-file string extraction (|net_delta|=18391) — at this magnitude a dependency was un-vendored; our instrument cannot separate that from a real capability change, so it is NOT counted as one"
+          }
+        ]
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "figma",
+      "their_registry_id": "io.github.GLips/Figma-Context-MCP",
+      "their_note": "community server we track; the official Figma MCP is com.figma.mcp/mcp (remote hosted, not in our corpus)",
+      "npm_package": "figma-developer-mcp",
+      "package_axis": {
+        "in_our_series": true,
+        "version_pair_rows": 1,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 1,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "firebase",
+      "their_registry_id": "io.github.firebase/firebase-mcp",
+      "their_note": "official; registry v0.3.0 lags behind npm 0.4.4",
+      "npm_package": "firebase-mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    },
+    {
+      "slug": "bybit",
+      "their_registry_id": null,
+      "their_note": "not in registry; trading-mcp npm package unregistered",
+      "npm_package": "trading-mcp",
+      "package_axis": {
+        "in_our_series": false,
+        "version_pair_rows": 0,
+        "changed_windows": 0,
+        "bundle_noise_windows": 0,
+        "hash_only_windows": 0,
+        "description_rows": 0,
+        "windows": []
+      },
+      "hosted_axis": {
+        "declared_remote_endpoints": 0,
+        "endpoints": []
+      }
+    }
+  ]
+}
