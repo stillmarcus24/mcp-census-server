@@ -77,7 +77,8 @@
             "silent_changes": 0
           }
         ]
-      }
+      },
+      "registry_id": "io.github.hostinger/hostinger-api-mcp"
     },
     {
       "slug": "currents",
@@ -103,7 +104,8 @@
             "silent_changes": 0
           }
         ]
-      }
+      },
+      "registry_id": "io.github.pipeworx-io/currents"
     },
     {
       "slug": "mongodb",
@@ -122,7 +124,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.mongodb-js/mongodb-mcp-server"
     },
     {
       "slug": "netlify",
@@ -213,7 +216,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.ChromeDevTools/chrome-devtools-mcp"
     },
     {
       "slug": "browserstack",
@@ -430,7 +434,8 @@
             "silent_changes": 0
           }
         ]
-      }
+      },
+      "registry_id": "io.github.browserstack/mcp-server"
     },
     {
       "slug": "shopify",
@@ -477,7 +482,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.SAP/fiori-mcp-server"
     },
     {
       "slug": "apify",
@@ -558,7 +564,8 @@
             "silent_changes": 0
           }
         ]
-      }
+      },
+      "registry_id": "io.github.upstash/context7"
     },
     {
       "slug": "supabase",
@@ -683,7 +690,8 @@
             "silent_changes": 0
           }
         ]
-      }
+      },
+      "registry_id": "io.github.getsentry/sentry-mcp"
     },
     {
       "slug": "launchdarkly",
@@ -1183,7 +1191,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.UI5/mcp-server"
     },
     {
       "slug": "figma",
@@ -1202,7 +1211,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.GLips/Figma-Context-MCP"
     },
     {
       "slug": "firebase",
@@ -1221,7 +1231,8 @@
       "hosted_axis": {
         "declared_remote_endpoints": 0,
         "endpoints": []
-      }
+      },
+      "registry_id": "io.github.firebase/firebase-mcp"
     },
     {
       "slug": "bybit",
@@ -1242,5 +1253,11 @@
         "endpoints": []
       }
     }
-  ]
+  ],
+  "provenance": {
+    "registry_ids": {
+      "source": "Paraphern/rugsnare audits/drift-watch/registry-mapping.json (built 2026-10-18 via registry search API; 11 mapped, 11 null)",
+      "inlined_by": "Paraphern/rugsnare PR (snyk/agent-scan#482 agreement, 2026-10-28)"
+    }
+  }
 }
