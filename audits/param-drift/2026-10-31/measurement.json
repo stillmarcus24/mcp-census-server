@@ -1,0 +1,184 @@
+{
+  "window": {
+    "first": "2026-09-21T07:40:03.325Z",
+    "last": "2026-10-31T07:40:09.323Z"
+  },
+  "totals": {
+    "all_events": 39036,
+    "params_changed": 3433,
+    "silent": 2524,
+    "silent_pct": 73.5,
+    "servers": 1218
+  },
+  "kill_check": {
+    "both_versions_null": 26,
+    "silent_with_real_unmoved_version": 2498,
+    "floor_pct": 72.8
+  },
+  "attribution": {
+    "attributed": 2822,
+    "unattributable": 611,
+    "unattributable_pct": 17.8
+  },
+  "direction": {
+    "params_gained": 11156,
+    "params_lost": 1315,
+    "ratio": 8.5
+  },
+  "stability": {
+    "durable_slots": 10722,
+    "flapping_slots": 420,
+    "flap_pct": 3.8
+  },
+  "concentration": {
+    "top10_pct": 7.2,
+    "top20_pct": 11.6,
+    "top": [
+      [
+        "https://mcp-lab.thefilmradar.com/mcp",
+        29
+      ],
+      [
+        "https://api.wellapp.ai/v1/mcp",
+        26
+      ],
+      [
+        "https://gripforge.ai/mcp",
+        25
+      ],
+      [
+        "https://swarmmemo.com/mcp",
+        25
+      ],
+      [
+        "https://app.hermoso.ai/mcp?src=registry",
+        21
+      ]
+    ]
+  },
+  "renames_suppressed": 1,
+  "top_gained": [
+    [
+      "context",
+      256
+    ],
+    [
+      "request_idempotency_key",
+      197
+    ],
+    [
+      "limit",
+      139
+    ],
+    [
+      "offset",
+      138
+    ],
+    [
+      "scope",
+      121
+    ],
+    [
+      "display_name",
+      114
+    ],
+    [
+      "contentLocale",
+      99
+    ],
+    [
+      "contentLocales",
+      99
+    ],
+    [
+      "defaultContentLocale",
+      99
+    ],
+    [
+      "languageVariantGroupId",
+      99
+    ],
+    [
+      "marketContext",
+      99
+    ],
+    [
+      "marketLanguageProfile",
+      99
+    ],
+    [
+      "requestedOutputLocales",
+      99
+    ],
+    [
+      "resolvedContentLocale",
+      99
+    ],
+    [
+      "sourceLocale",
+      99
+    ]
+  ],
+  "top_lost": [
+    [
+      "llm_model",
+      48
+    ],
+    [
+      "maxPriceMicroUsd",
+      47
+    ],
+    [
+      "requestId",
+      47
+    ],
+    [
+      "mpp_credential",
+      39
+    ],
+    [
+      "mpp_pay",
+      39
+    ],
+    [
+      "api_pass",
+      32
+    ],
+    [
+      "offset",
+      18
+    ],
+    [
+      "limit",
+      15
+    ],
+    [
+      "conversation_id",
+      15
+    ],
+    [
+      "arguments",
+      15
+    ],
+    [
+      "input",
+      14
+    ],
+    [
+      "api_key",
+      13
+    ],
+    [
+      "idempotency_key",
+      12
+    ],
+    [
+      "guest_token",
+      11
+    ],
+    [
+      "limite",
+      10
+    ]
+  ]
+}

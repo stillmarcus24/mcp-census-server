@@ -1,0 +1,13 @@
+The data files in this directory (*.jsonl, *.json) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+  https://creativecommons.org/licenses/by/4.0/
+
+Copyright 2026 Still OS Digital Holdings LLC.
+
+Required attribution:
+
+  MCP Parameter Drift Series v1, Still OS Digital Holdings LLC,
+  window 2026-09-21/2026-10-31.
+
+Code in this repository remains under the MIT License (see ../../../LICENSE).

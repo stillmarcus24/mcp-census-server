@@ -1,0 +1,166 @@
+{
+  "probed_at": "2026-10-31T11:01:17.833Z",
+  "method": "core/mcp_surface_clock.cjs observe() — the same prober that produced the series",
+  "sampled": 14,
+  "tally": {
+    "CONFIRMED": 13,
+    "UNREACHABLE": 1
+  },
+  "note": "CONFIRMED = the server still serves the parameter recorded as arrived. ABSENT is not a refutation on its own; the surface may have moved again since.",
+  "rows": [
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://obeliskgate.com/mcp",
+      "tool": "verify_agent_run_proof",
+      "param": "run_proof_token",
+      "silent": true,
+      "from_version": "1",
+      "to_version": "1",
+      "verdict": "CONFIRMED",
+      "params_now": 4
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_api_breaking_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0",
+      "verdict": "CONFIRMED",
+      "params_now": 4
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_api_breaking_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0",
+      "verdict": "CONFIRMED",
+      "params_now": 4
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://mcp.viridis-security.com/security-preflight/mcp",
+      "tool": "scan_source",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "1.28.1",
+      "to_version": "1.28.1",
+      "verdict": "CONFIRMED",
+      "params_now": 3
+    },
+    {
+      "ts": "2026-10-06T19:40:03.740Z",
+      "url": "https://api.wellapp.ai/v1/mcp",
+      "tool": "well_propose_next_steps",
+      "param": "first_session",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0",
+      "verdict": "CONFIRMED",
+      "params_now": 6
+    },
+    {
+      "ts": "2026-10-07T13:40:04.062Z",
+      "url": "https://gripforge.ai/mcp",
+      "tool": "gripforge_loading_page",
+      "param": "quote_token",
+      "silent": true,
+      "from_version": "0.1.8",
+      "to_version": "0.1.8",
+      "verdict": "CONFIRMED",
+      "params_now": 6
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.opcmenu.com/mcp",
+      "tool": "update_organizer_ticketing",
+      "param": "annualPassPriceCents",
+      "silent": true,
+      "from_version": "0.9.1",
+      "to_version": "0.9.1",
+      "verdict": "CONFIRMED",
+      "params_now": 12
+    },
+    {
+      "ts": "2026-10-08T19:40:05.017Z",
+      "url": "https://api.stablebaseline.io/functions/v1/cloud-serve/mcp",
+      "tool": "autoDesignWhiteboard",
+      "param": "quoteToken",
+      "silent": true,
+      "from_version": "0.4.0",
+      "to_version": "0.4.0",
+      "verdict": "CONFIRMED",
+      "params_now": 14
+    },
+    {
+      "ts": "2026-10-09T07:40:03.270Z",
+      "url": "https://hyperion.thetempleofdoom.com/mcp",
+      "tool": "hash",
+      "param": "secretKey",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0",
+      "verdict": "UNREACHABLE",
+      "detail": "NOT_MCP"
+    },
+    {
+      "ts": "2026-10-09T07:40:03.270Z",
+      "url": "https://app.getvia.xyz/mcp",
+      "tool": "accept_offer",
+      "param": "offer_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0",
+      "verdict": "CONFIRMED",
+      "params_now": 8
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "capability_search",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0",
+      "verdict": "CONFIRMED",
+      "params_now": 10
+    },
+    {
+      "ts": "2026-10-10T19:40:03.823Z",
+      "url": "https://elbowsupknivesout.warreandvavasour.com/mcp",
+      "tool": "process_bid_room",
+      "param": "upload_token",
+      "silent": true,
+      "from_version": null,
+      "to_version": null,
+      "verdict": "CONFIRMED",
+      "params_now": 6
+    },
+    {
+      "ts": "2026-10-11T07:40:03.714Z",
+      "url": "https://shop.getnoden.com/mcp",
+      "tool": "purchase_skill",
+      "param": "retry_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0",
+      "verdict": "CONFIRMED",
+      "params_now": 5
+    },
+    {
+      "ts": "2026-10-13T01:40:07.598Z",
+      "url": "https://api.babyblueviper.com/mcp",
+      "tool": "payment_receipt",
+      "param": "authorization_signature",
+      "silent": true,
+      "from_version": "1.13.0",
+      "to_version": "1.13.0",
+      "verdict": "CONFIRMED",
+      "params_now": 8
+    }
+  ]
+}

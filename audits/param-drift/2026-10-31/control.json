@@ -1,0 +1,46 @@
+{
+  "baseline": [
+    {
+      "kind": "DESCRIPTION_CHANGED",
+      "events": 29175,
+      "silent": 27255,
+      "silent_pct": 93.4
+    },
+    {
+      "kind": "SURFACE_CHANGED",
+      "events": 6428,
+      "silent": 5059,
+      "silent_pct": 78.7
+    },
+    {
+      "kind": "PARAMS_CHANGED",
+      "events": 3433,
+      "silent": 2524,
+      "silent_pct": 73.5
+    }
+  ],
+  "version_capable": {
+    "servers_capable": 1106,
+    "params_events_on_capable": 1626,
+    "silent": 717,
+    "silent_pct": 44.1
+  },
+  "leave_one_out": [
+    {
+      "dropped": 1,
+      "events": 3402,
+      "silent": 2519,
+      "silent_pct": 74
+    },
+    {
+      "dropped": 10,
+      "events": 3196,
+      "silent": 2372,
+      "silent_pct": 74.2
+    }
+  ],
+  "top_server": {
+    "url": "https://app.hermoso.ai/mcp?src=registry",
+    "events": 31
+  }
+}

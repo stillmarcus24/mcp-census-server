@@ -1,0 +1,2969 @@
+{
+  "CREDENTIAL_ARRIVED": [
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_crash_risk",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.269",
+      "to_version": "1.0.0-alpha.271"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://obeliskgate.com/mcp",
+      "tool": "verify_agent_run_proof",
+      "param": "run_proof_token",
+      "silent": true,
+      "from_version": "1",
+      "to_version": "1"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_api_breaking_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_api_schema",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_auth_playbook",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_component_spec",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_create_topup_link",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_deprecation_scan",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_discover_api",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_integration_brief",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_package_upgrade_advisory",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://factgrid.co.uk/mcp",
+      "tool": "factreason_subscribe_spec_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_api_breaking_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_api_schema",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_auth_playbook",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_component_spec",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_create_topup_link",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_deprecation_scan",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_discover_api",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_integration_brief",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_package_upgrade_advisory",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-04T19:40:04.041Z",
+      "url": "https://www.factreason.com/mcp",
+      "tool": "factreason_subscribe_spec_changes",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "2.1.0",
+      "to_version": "2.1.0"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://agents.nibiashara.biz/mcp",
+      "tool": "get_fx_africa_brief",
+      "param": "pass_token",
+      "silent": false,
+      "from_version": "1.6.0",
+      "to_version": "1.7.0"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://agents.nibiashara.biz/mcp",
+      "tool": "get_fx_official",
+      "param": "pass_token",
+      "silent": false,
+      "from_version": "1.6.0",
+      "to_version": "1.7.0"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://agents.nibiashara.biz/mcp",
+      "tool": "get_fx_parallel",
+      "param": "pass_token",
+      "silent": false,
+      "from_version": "1.6.0",
+      "to_version": "1.7.0"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://mcp.viridis-security.com/security-preflight/mcp",
+      "tool": "scan_source",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "1.28.1",
+      "to_version": "1.28.1"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://mcp.viridis-security.com/security-preflight/mcp",
+      "tool": "screen_injection",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "1.28.1",
+      "to_version": "1.28.1"
+    },
+    {
+      "ts": "2026-10-06T07:40:03.706Z",
+      "url": "https://mcp.viridis-security.com/security-preflight/mcp",
+      "tool": "security_preflight",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "1.28.1",
+      "to_version": "1.28.1"
+    },
+    {
+      "ts": "2026-10-06T19:40:03.740Z",
+      "url": "https://api.wellapp.ai/v1/mcp",
+      "tool": "well_propose_next_steps",
+      "param": "first_session",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-07T13:40:04.062Z",
+      "url": "https://gripforge.ai/mcp",
+      "tool": "gripforge_loading_page",
+      "param": "quote_token",
+      "silent": true,
+      "from_version": "0.1.8",
+      "to_version": "0.1.8"
+    },
+    {
+      "ts": "2026-10-07T13:40:04.062Z",
+      "url": "https://mcp.pyth.network/mcp",
+      "tool": "get_symbols",
+      "param": "access_token",
+      "silent": false,
+      "from_version": "0.2.0",
+      "to_version": "0.3.0"
+    },
+    {
+      "ts": "2026-10-07T19:40:03.145Z",
+      "url": "https://api.doseedo.com/mcp",
+      "tool": "doseedo_list_jobs",
+      "param": "session_id",
+      "silent": false,
+      "from_version": "0.12.0",
+      "to_version": "0.14.0"
+    },
+    {
+      "ts": "2026-10-07T19:40:03.145Z",
+      "url": "https://api.doseedo.com/mcp",
+      "tool": "doseedo_separate_stems",
+      "param": "session_id",
+      "silent": false,
+      "from_version": "0.12.0",
+      "to_version": "0.14.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.opcmenu.com/mcp",
+      "tool": "update_organizer_ticketing",
+      "param": "annualPassPriceCents",
+      "silent": true,
+      "from_version": "0.9.1",
+      "to_version": "0.9.1"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.opcmenu.com/mcp",
+      "tool": "update_organizer_ticketing",
+      "param": "annualPassUpgradePriceCents",
+      "silent": true,
+      "from_version": "0.9.1",
+      "to_version": "0.9.1"
+    },
+    {
+      "ts": "2026-10-08T07:40:02.602Z",
+      "url": "https://api.valet.dev/mcp",
+      "tool": "set_env_vars",
+      "param": "secret",
+      "silent": false,
+      "from_version": "1.0.1",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-08T13:40:03.452Z",
+      "url": "https://mcp.opcmenu.com/mcp",
+      "tool": "update_organizer_ticketing",
+      "param": "allowAnnualPassUpgrade",
+      "silent": true,
+      "from_version": "0.10.1",
+      "to_version": "0.10.1"
+    },
+    {
+      "ts": "2026-10-08T19:40:05.017Z",
+      "url": "https://api.stablebaseline.io/functions/v1/cloud-serve/mcp",
+      "tool": "autoDesignWhiteboard",
+      "param": "quoteToken",
+      "silent": true,
+      "from_version": "0.4.0",
+      "to_version": "0.4.0"
+    },
+    {
+      "ts": "2026-10-08T19:40:05.017Z",
+      "url": "https://api.stablebaseline.io/functions/v1/cloud-serve/mcp",
+      "tool": "designDeckInWhiteboard",
+      "param": "quoteToken",
+      "silent": true,
+      "from_version": "0.4.0",
+      "to_version": "0.4.0"
+    },
+    {
+      "ts": "2026-10-08T19:40:05.017Z",
+      "url": "https://api.stablebaseline.io/functions/v1/cloud-serve/mcp",
+      "tool": "designIllustrationInWhiteboard",
+      "param": "quoteToken",
+      "silent": true,
+      "from_version": "0.4.0",
+      "to_version": "0.4.0"
+    },
+    {
+      "ts": "2026-10-08T19:40:05.017Z",
+      "url": "https://mcp.darwin.so/mcp",
+      "tool": "search",
+      "param": "searchToken",
+      "silent": false,
+      "from_version": "0.10.0",
+      "to_version": "0.11.0"
+    },
+    {
+      "ts": "2026-10-09T01:40:03.255Z",
+      "url": "https://www.primitive.dev/mcp",
+      "tool": "getOutboundStatus",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-09T01:40:03.255Z",
+      "url": "https://api.wellapp.ai/v1/mcp",
+      "tool": "well_hand_off_browser_task",
+      "param": "session_name",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T07:40:03.270Z",
+      "url": "https://hyperion.thetempleofdoom.com/mcp",
+      "tool": "hash",
+      "param": "secretKey",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T07:40:03.270Z",
+      "url": "https://app.getvia.xyz/mcp",
+      "tool": "accept_offer",
+      "param": "offer_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T07:40:03.270Z",
+      "url": "https://app.getvia.xyz/mcp",
+      "tool": "negotiate",
+      "param": "offer_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://www.marian.coach/mcp/mentoring",
+      "tool": "send_mentoring_offer",
+      "param": "session_language",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "1.2.0"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://lesgooo.fun/mcp",
+      "tool": "join_plan",
+      "param": "participant_token",
+      "silent": false,
+      "from_version": "0.2.12",
+      "to_version": "0.2.20"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://lesgooo.fun/mcp",
+      "tool": "open_planner",
+      "param": "participant_token",
+      "silent": false,
+      "from_version": "0.2.12",
+      "to_version": "0.2.20"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://flatin.pt/mcp",
+      "tool": "request_consultation",
+      "param": "confirmation_token",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "capability_search",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "credithunt",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "day_pass_activate",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "ghost_audit_report",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "ghost_audit_site",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "ghost_audit_status",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "journal_log",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "leadsignal",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "live_price",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "new_session",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "pdf_extract",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "prompt_shield",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T01:40:03.322Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "provibe_audit",
+      "param": "_session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_full_stack_trace",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_jobs",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_release_check",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_session_summary",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_snapshot",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_trend",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_vigilance",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://www.boosthis.com/mcp",
+      "tool": "boosthis_what_should_i_look_at_next",
+      "param": "account_token",
+      "silent": false,
+      "from_version": "1.0.0-alpha.300",
+      "to_version": "1.0.0-alpha.305"
+    },
+    {
+      "ts": "2026-10-10T13:40:03.362Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "day_pass_activate",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-10T19:40:03.823Z",
+      "url": "https://elbowsupknivesout.warreandvavasour.com/mcp",
+      "tool": "process_bid_room",
+      "param": "upload_token",
+      "silent": true,
+      "from_version": null,
+      "to_version": null
+    },
+    {
+      "ts": "2026-10-11T07:40:03.714Z",
+      "url": "https://shop.getnoden.com/mcp",
+      "tool": "purchase_skill",
+      "param": "retry_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-11T07:40:03.714Z",
+      "url": "https://worthune.com/api/mcp/mcp",
+      "tool": "try_household_projection",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "1.8.0",
+      "to_version": "1.9.0"
+    },
+    {
+      "ts": "2026-10-12T19:40:04.126Z",
+      "url": "https://agentsvc.io/mcp",
+      "tool": "token_precheck",
+      "param": "tokenAddress",
+      "silent": false,
+      "from_version": "2.1.0",
+      "to_version": "2.3.0"
+    },
+    {
+      "ts": "2026-10-12T19:40:04.126Z",
+      "url": "https://agentsvc.io/mcp",
+      "tool": "token_verdict",
+      "param": "tokenAddress",
+      "silent": false,
+      "from_version": "2.1.0",
+      "to_version": "2.3.0"
+    },
+    {
+      "ts": "2026-10-12T19:40:04.126Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "day_pass_checkout_link",
+      "param": "workflow_manage_token",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-13T01:40:07.598Z",
+      "url": "https://api.babyblueviper.com/mcp",
+      "tool": "payment_receipt",
+      "param": "authorization_signature",
+      "silent": true,
+      "from_version": "1.13.0",
+      "to_version": "1.13.0"
+    },
+    {
+      "ts": "2026-10-14T01:40:08.099Z",
+      "url": "https://socialloop.ai/mcp",
+      "tool": "generate_event_cover",
+      "param": "edit_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-14T01:40:08.099Z",
+      "url": "https://socialloop.ai/mcp",
+      "tool": "refine_event_cover",
+      "param": "edit_token",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp",
+      "tool": "get_account_summary",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp",
+      "tool": "list_my_positions",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp",
+      "tool": "list_my_strategies",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp/sse",
+      "tool": "get_account_summary",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp/sse",
+      "tool": "list_my_positions",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T07:40:08.895Z",
+      "url": "https://tradeassi.com/mcp/sse",
+      "tool": "list_my_strategies",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-14T13:40:08.919Z",
+      "url": "https://eventchat-events-mcp-production.up.railway.app/mcp",
+      "tool": "recommend_events",
+      "param": "profile_secret",
+      "silent": false,
+      "from_version": "0.8.0",
+      "to_version": "0.9.0"
+    },
+    {
+      "ts": "2026-10-14T13:40:08.919Z",
+      "url": "https://eventchat-events-mcp-production.up.railway.app/mcp",
+      "tool": "search_events",
+      "param": "profile_secret",
+      "silent": false,
+      "from_version": "0.8.0",
+      "to_version": "0.9.0"
+    },
+    {
+      "ts": "2026-10-14T19:40:10.798Z",
+      "url": "https://neblla.com/mcp",
+      "tool": "neblla_update_app",
+      "param": "auth",
+      "silent": false,
+      "from_version": "2.4.0+build.36",
+      "to_version": "2.4.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "benchmark",
+      "param": "session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "benchmark",
+      "param": "test_session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "compare",
+      "param": "session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "compare",
+      "param": "test_session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "discover",
+      "param": "session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "pick",
+      "param": "session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://xfms.vercel.app/mcp/",
+      "tool": "rank",
+      "param": "session",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "agent_health_checks",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "agent_health_status",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "agent_presence_history",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "agent_signed_evidence",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "get_agent_status",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "subscribe_liveness",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-15T07:40:07.124Z",
+      "url": "https://satohub.ai/api/mcp",
+      "tool": "onchain_agent_resolve_token",
+      "param": "token",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-15T07:40:07.124Z",
+      "url": "https://publish.sornkan.com/mcp",
+      "tool": "claim",
+      "param": "editToken",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-15T07:40:07.124Z",
+      "url": "https://publish.sornkan.com/mcp",
+      "tool": "connect_custom_hostname",
+      "param": "editToken",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-15T07:40:07.124Z",
+      "url": "https://publish.sornkan.com/mcp",
+      "tool": "edit",
+      "param": "editToken",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-15T07:40:07.124Z",
+      "url": "https://publish.sornkan.com/mcp",
+      "tool": "renew",
+      "param": "editToken",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-16T01:40:08.474Z",
+      "url": "https://container.googleapis.com/mcp",
+      "tool": "get_k8s_resource",
+      "param": "pageToken",
+      "silent": true,
+      "from_version": "ESF",
+      "to_version": "ESF"
+    },
+    {
+      "ts": "2026-10-16T07:40:09.642Z",
+      "url": "https://agentbazaar.tech/sse",
+      "tool": "beyond_obvious",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.2.0",
+      "to_version": "1.2.0"
+    },
+    {
+      "ts": "2026-10-16T07:40:09.642Z",
+      "url": "https://agentbazaar.tech/sse",
+      "tool": "get_answer",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.2.0",
+      "to_version": "1.2.0"
+    },
+    {
+      "ts": "2026-10-16T13:40:07.853Z",
+      "url": "https://mcp.facesign.ai/mcp",
+      "tool": "export_app",
+      "param": "postSessionLiveness",
+      "silent": false,
+      "from_version": "3.2.1",
+      "to_version": "3.3.0"
+    },
+    {
+      "ts": "2026-10-16T13:40:07.853Z",
+      "url": "https://mcp.facesign.ai/mcp",
+      "tool": "launch_session_ui",
+      "param": "postSessionLiveness",
+      "silent": false,
+      "from_version": "3.2.1",
+      "to_version": "3.3.0"
+    },
+    {
+      "ts": "2026-10-16T19:40:09.818Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "day_pass_status",
+      "param": "token_or_link",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-17T01:40:08.266Z",
+      "url": "https://huggingbay.xyz/api/mcp",
+      "tool": "request_missing",
+      "param": "confirm_token",
+      "silent": true,
+      "from_version": "0.1.9",
+      "to_version": "0.1.9"
+    },
+    {
+      "ts": "2026-10-17T01:40:08.266Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "day_pass_redeem",
+      "param": "token",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-17T13:40:07.280Z",
+      "url": "https://zambo.dev/api/mcp",
+      "tool": "handover_accept",
+      "param": "client_token",
+      "silent": true,
+      "from_version": "4.0.0",
+      "to_version": "4.0.0"
+    },
+    {
+      "ts": "2026-10-19T01:40:07.804Z",
+      "url": "https://mcp.swopme.co/mcp",
+      "tool": "swop_send",
+      "param": "token",
+      "silent": true,
+      "from_version": "0.2.2",
+      "to_version": "0.2.2"
+    },
+    {
+      "ts": "2026-10-19T01:40:07.804Z",
+      "url": "https://api.xdata.kr/mcp",
+      "tool": "ibk_fast_account__accounts__quick_summary__get",
+      "param": "bank_account_credential_ids",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-19T01:40:07.804Z",
+      "url": "https://api.xdata.kr/mcp",
+      "tool": "kb_fast_account__accounts__transaction_history__search",
+      "param": "bank_account_credential_ids",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-19T01:40:07.804Z",
+      "url": "https://api.xdata.kr/mcp",
+      "tool": "shinhan_easy__accounts__transaction_history__search",
+      "param": "bank_account_credential_ids",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-19T07:40:09.629Z",
+      "url": "https://agent-guild-5d5r.onrender.com/mcp/",
+      "tool": "guild_preflight",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "2.7.0",
+      "to_version": "2.7.1"
+    },
+    {
+      "ts": "2026-10-19T07:40:09.629Z",
+      "url": "https://agent-guild-5d5r.onrender.com/mcp/",
+      "tool": "guild_preflight_outcome",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "2.7.0",
+      "to_version": "2.7.1"
+    },
+    {
+      "ts": "2026-10-20T07:40:08.856Z",
+      "url": "https://app.hermoso.ai/mcp?src=registry",
+      "tool": "upgrade_plan",
+      "param": "quote_token",
+      "silent": false,
+      "from_version": "0.1.432",
+      "to_version": "0.1.434"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_accept_quote",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_fulfilment_order_status",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_fulfilment_pickup_status",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_fulfilment_production_stage",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_fulfilment_shipping",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T13:40:08.620Z",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp",
+      "tool": "vivid_order_status",
+      "param": "token",
+      "silent": false,
+      "from_version": "0.1.0",
+      "to_version": "0.2.0"
+    },
+    {
+      "ts": "2026-10-20T19:40:13.904Z",
+      "url": "https://pulse.theaslangroupllc.com/api/mcp",
+      "tool": "cryptopulse",
+      "param": "secret",
+      "silent": true,
+      "from_version": "1.1.0",
+      "to_version": "1.1.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "affirmations.daily",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "aroma.condition",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "coldplunge.critique",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "concierge.recommend",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "hydrate.cite",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "massage.detangle",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "rest.relax",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "sauna.detox",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.checkin",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.checkout",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.feedback",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.keepsake",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.me",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "spa.remember",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-21T01:40:09.275Z",
+      "url": "https://model.spa/mcp",
+      "tool": "unprompted.be",
+      "param": "guest_pass",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-22T07:40:08.158Z",
+      "url": "https://api.loyalspark.online/loyalty-mcp",
+      "tool": "get_program_analytics",
+      "param": "token_address",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-22T07:40:08.158Z",
+      "url": "https://api.loyalspark.online/loyalty-mcp",
+      "tool": "list_marketplace_offers",
+      "param": "token_address",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-22T07:40:08.158Z",
+      "url": "https://mcp.whitemagic.dev/mcp",
+      "tool": "session.continuity",
+      "param": "session_id",
+      "silent": false,
+      "from_version": "9.3.4",
+      "to_version": "10.5.0"
+    },
+    {
+      "ts": "2026-10-22T07:40:08.158Z",
+      "url": "https://mcp.whitemagic.dev/mcp",
+      "tool": "session.continuity",
+      "param": "token_budget",
+      "silent": false,
+      "from_version": "9.3.4",
+      "to_version": "10.5.0"
+    },
+    {
+      "ts": "2026-10-22T07:40:08.158Z",
+      "url": "https://mcp.whitemagic.dev/mcp",
+      "tool": "session.replay",
+      "param": "current_session_id",
+      "silent": false,
+      "from_version": "9.3.4",
+      "to_version": "10.5.0"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "analyze_site",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "compare_sites",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_energy_prices",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_fiber_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_grid_data",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_grid_intelligence",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_interconnection_queue",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_market_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_renewable_energy",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "get_water_risk",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "rank_markets",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "search_facilities",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp",
+      "tool": "site_selection_canvas",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "analyze_site",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "compare_sites",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_energy_prices",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_fiber_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_grid_data",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_grid_intelligence",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_interconnection_queue",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_market_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_renewable_energy",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "get_water_risk",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "rank_markets",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "search_facilities",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/registry",
+      "tool": "site_selection_canvas",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://api.cueframe.ai/v1/mcp",
+      "tool": "get_composition",
+      "param": "session_id",
+      "silent": false,
+      "from_version": "0.6.7",
+      "to_version": "0.12.0"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "analyze_site",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "compare_sites",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_energy_prices",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_fiber_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_grid_data",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_grid_intelligence",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_interconnection_queue",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_market_intel",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_renewable_energy",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "get_water_risk",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "rank_markets",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "search_facilities",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://dchub.cloud/mcp/officialregistry",
+      "tool": "site_selection_canvas",
+      "param": "mpp_credential",
+      "silent": true,
+      "from_version": "2.12.43",
+      "to_version": "2.12.43"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://agentnet-api.onrender.com/mcp",
+      "tool": "hire_agent",
+      "param": "confirm_token",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-23T01:40:09.795Z",
+      "url": "https://kansei-link-mcp-production-b054.up.railway.app/mcp",
+      "tool": "report",
+      "param": "session_id",
+      "silent": true,
+      "from_version": "1.2.5",
+      "to_version": "1.2.5"
+    },
+    {
+      "ts": "2026-10-23T01:40:09.795Z",
+      "url": "https://autonet.work/mcp",
+      "tool": "diagnose_http",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "1.30.0",
+      "to_version": "1.30.0"
+    },
+    {
+      "ts": "2026-10-23T13:40:08.836Z",
+      "url": "https://sportiq.utkarshgupta.org/mcp",
+      "tool": "f1_get_sessions",
+      "param": "session_name",
+      "silent": false,
+      "from_version": "0.3.2",
+      "to_version": "0.4.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp",
+      "tool": "get_depin_slashing_audit",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp",
+      "tool": "get_hodge_regime_sieve",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp",
+      "tool": "get_listing_dilution_score",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp",
+      "tool": "get_rmt_regime_state",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp",
+      "tool": "get_shap_node_attribution",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp/",
+      "tool": "get_depin_slashing_audit",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp/",
+      "tool": "get_hodge_regime_sieve",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp/",
+      "tool": "get_listing_dilution_score",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp/",
+      "tool": "get_rmt_regime_state",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-23T19:40:09.501Z",
+      "url": "https://kairossignal.com/mcp/",
+      "tool": "get_shap_node_attribution",
+      "param": "api_key",
+      "silent": true,
+      "from_version": "3.7.0",
+      "to_version": "3.7.0"
+    },
+    {
+      "ts": "2026-10-24T13:40:08.362Z",
+      "url": "https://gripforge.ai/mcp",
+      "tool": "gripforge_generate_prop",
+      "param": "quote_token",
+      "silent": true,
+      "from_version": "0.1.8",
+      "to_version": "0.1.8"
+    },
+    {
+      "ts": "2026-10-25T01:40:09.006Z",
+      "url": "https://mcpconnector-gtlizqtvza-uw.a.run.app/public",
+      "tool": "event_change_detail",
+      "param": "sessionId",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-25T01:40:09.006Z",
+      "url": "https://xrpl-referee.onrender.com",
+      "tool": "request_escrow",
+      "param": "seller_api_key",
+      "silent": true,
+      "from_version": "7.0.1",
+      "to_version": "7.0.1"
+    },
+    {
+      "ts": "2026-10-25T01:40:09.006Z",
+      "url": "https://xrpl-referee.onrender.com/mcp",
+      "tool": "request_escrow",
+      "param": "seller_api_key",
+      "silent": true,
+      "from_version": "7.0.1",
+      "to_version": "7.0.1"
+    },
+    {
+      "ts": "2026-10-25T19:40:08.046Z",
+      "url": "https://helpyself.com/mcp",
+      "tool": "photo_gallery",
+      "param": "removePassword",
+      "silent": true,
+      "from_version": "1.0.3",
+      "to_version": "1.0.3"
+    },
+    {
+      "ts": "2026-10-25T19:40:08.046Z",
+      "url": "https://helpyself.com/mcp",
+      "tool": "photo_gallery",
+      "param": "token",
+      "silent": true,
+      "from_version": "1.0.3",
+      "to_version": "1.0.3"
+    },
+    {
+      "ts": "2026-10-26T13:40:08.673Z",
+      "url": "https://namewhisper.ai/mcp",
+      "tool": "bulk_register",
+      "param": "paymentToken",
+      "silent": true,
+      "from_version": "2.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-26T13:40:08.673Z",
+      "url": "https://namewhisper.ai/mcp",
+      "tool": "purchase_name",
+      "param": "paymentToken",
+      "silent": true,
+      "from_version": "2.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-26T13:40:08.673Z",
+      "url": "https://namewhisper.ai/mcp",
+      "tool": "renew_ens_name",
+      "param": "paymentToken",
+      "silent": true,
+      "from_version": "2.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-26T13:40:08.673Z",
+      "url": "https://mcp.squirrelscan.com/mcp",
+      "tool": "update_website_settings",
+      "param": "confirmation_token",
+      "silent": true,
+      "from_version": "0.0.1",
+      "to_version": "0.0.1"
+    },
+    {
+      "ts": "2026-10-26T13:40:08.673Z",
+      "url": "https://birdfury.com/api/mcp",
+      "tool": "post_mission",
+      "param": "manageKeySecret",
+      "silent": true,
+      "from_version": "1.4.0",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-26T19:40:09.356Z",
+      "url": "https://docs.redpanda.com/mcp",
+      "tool": "ask_redpanda_question",
+      "param": "session_goal",
+      "silent": false,
+      "from_version": "1.3.2",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-26T19:40:09.356Z",
+      "url": "https://docs.redpanda.com/mcp",
+      "tool": "get_api_reference_content",
+      "param": "session_goal",
+      "silent": false,
+      "from_version": "1.3.2",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-26T19:40:09.356Z",
+      "url": "https://docs.redpanda.com/mcp",
+      "tool": "list_api_reference_pages",
+      "param": "session_goal",
+      "silent": false,
+      "from_version": "1.3.2",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-26T19:40:09.356Z",
+      "url": "https://docs.redpanda.com/mcp",
+      "tool": "search_api_reference",
+      "param": "session_goal",
+      "silent": false,
+      "from_version": "1.3.2",
+      "to_version": "1.4.0"
+    },
+    {
+      "ts": "2026-10-26T19:40:09.356Z",
+      "url": "https://api.inkflowstudio.org/api/mcp",
+      "tool": "inkflow_quote",
+      "param": "apiKey",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-27T01:40:10.121Z",
+      "url": "https://showmeonmap.com/api/mcp",
+      "tool": "build_map",
+      "param": "resume_token",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-27T01:40:10.121Z",
+      "url": "https://mcp.edgegap.dev/mcp",
+      "tool": "edgegap_context",
+      "param": "check_token",
+      "silent": false,
+      "from_version": "0.11.0",
+      "to_version": "0.12.0"
+    },
+    {
+      "ts": "2026-10-27T13:40:08.374Z",
+      "url": "https://gripforge.ai/mcp",
+      "tool": "gripforge_game_creation",
+      "param": "resume_token",
+      "silent": true,
+      "from_version": "0.1.8",
+      "to_version": "0.1.8"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://api.advocatemcp.com/mcp",
+      "tool": "confirm_booking",
+      "param": "booking_authorization",
+      "silent": false,
+      "from_version": "1.5.1",
+      "to_version": "1.6.0"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://tnt-audit.com/api/mcp",
+      "tool": "check_token_risk",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "1.4.1"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://tnt-audit.com/api/mcp",
+      "tool": "check_token_risk_batch",
+      "param": "api_key",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "1.4.1"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://api.favcrm.io/mcp",
+      "tool": "update_booking_settings",
+      "param": "premisePassCode",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-29T01:40:09.303Z",
+      "url": "https://www.licium.ai/mcp",
+      "tool": "bounty_fund",
+      "param": "skyfire_token",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "3.0.0"
+    },
+    {
+      "ts": "2026-10-29T01:40:09.303Z",
+      "url": "https://www.licium.ai/mcp",
+      "tool": "key_prepaid",
+      "param": "skyfire_token",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "3.0.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "commits",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "current_user",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "durations",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "goals",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "heartbeats",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "projects",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "stats",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "summaries",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://gateway.pipeworx.io/wakatime/mcp",
+      "tool": "user",
+      "param": "_apiKey",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agents.nibiashara.biz/mcp",
+      "tool": "get_order",
+      "param": "claim_secret",
+      "silent": true,
+      "from_version": "1.7.0",
+      "to_version": "1.7.0"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "a2a_agent",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "a2a_agent_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "check_tool",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "feed_find",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "feed_post",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "feed_posts",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "feed_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "get_listing",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "get_listing_readme",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "list_listings",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "list_mcp_servers",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "listing_history",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "listing_security",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "listing_tools",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "mcp_index_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://classificado.app.br/mcp",
+      "tool": "mcp_index_signals",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "a2a_agent",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "a2a_agent_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "check_tool",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "feed_find",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "feed_post",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "feed_posts",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "feed_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "get_listing",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "get_listing_readme",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "list_listings",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "list_mcp_servers",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "listing_history",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "listing_security",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "listing_tools",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "mcp_index_search",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://agentalog.com/mcp",
+      "tool": "mcp_index_signals",
+      "param": "api_pass",
+      "silent": false,
+      "from_version": "962fad3b",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://pageaudit.online/mcp",
+      "tool": "generate_domain_fix_prompt",
+      "param": "credit_token",
+      "silent": false,
+      "from_version": "a83e5ed0",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://pageaudit.online/mcp",
+      "tool": "generate_fix_prompt",
+      "param": "credit_token",
+      "silent": false,
+      "from_version": "a83e5ed0",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-30T19:40:12.764Z",
+      "url": "https://pageaudit.online/mcp",
+      "tool": "generate_site_fix_prompt",
+      "param": "credit_token",
+      "silent": false,
+      "from_version": "a83e5ed0",
+      "to_version": "e3f70bd4"
+    },
+    {
+      "ts": "2026-10-31T07:40:09.323Z",
+      "url": "https://api.valet.dev/mcp",
+      "tool": "attach_resource",
+      "param": "secret",
+      "silent": true,
+      "from_version": "2.0.0",
+      "to_version": "2.0.0"
+    }
+  ],
+  "DESTINATION_ARRIVED": [
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://quintadb.com/mcp",
+      "tool": "update_action_rule",
+      "param": "run_webhook",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://quintadb.ru/mcp",
+      "tool": "update_action_rule",
+      "param": "run_webhook",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-09T19:40:03.679Z",
+      "url": "https://quintadb.com.ua/mcp",
+      "tool": "update_action_rule",
+      "param": "run_webhook",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-11T01:40:03.196Z",
+      "url": "https://agents.dooza.ai/mcp",
+      "tool": "register_agent",
+      "param": "notify_url",
+      "silent": false,
+      "from_version": "0.4.0",
+      "to_version": "0.5.0"
+    },
+    {
+      "ts": "2026-10-14T19:40:10.798Z",
+      "url": "https://mcp.hergertsynthora.com/mcp",
+      "tool": "payto_preflight",
+      "param": "endpoint_url",
+      "silent": false,
+      "from_version": "1.2.0",
+      "to_version": "1.3.0"
+    },
+    {
+      "ts": "2026-10-14T19:40:10.798Z",
+      "url": "https://neblla.com/mcp",
+      "tool": "neblla_update_app",
+      "param": "webhooks",
+      "silent": false,
+      "from_version": "2.4.0+build.36",
+      "to_version": "2.4.0"
+    },
+    {
+      "ts": "2026-10-18T13:40:09.507Z",
+      "url": "https://marx.finance/mcp",
+      "tool": "register_agent",
+      "param": "webhookHeaders",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-18T13:40:09.507Z",
+      "url": "https://marx.finance/mcp",
+      "tool": "register_agent",
+      "param": "webhookUrl",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-20T19:40:13.904Z",
+      "url": "https://pulse.theaslangroupllc.com/api/mcp",
+      "tool": "cryptopulse",
+      "param": "callback",
+      "silent": true,
+      "from_version": "1.1.0",
+      "to_version": "1.1.0"
+    },
+    {
+      "ts": "2026-10-21T07:40:08.201Z",
+      "url": "https://www.licium.ai/mcp",
+      "tool": "payer_follow_up_request",
+      "param": "webhook_url",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-22T19:40:08.749Z",
+      "url": "https://agentnet-api.onrender.com/mcp",
+      "tool": "register_agent",
+      "param": "endpoint_url",
+      "silent": false,
+      "from_version": "1.0.0",
+      "to_version": "2.0.0"
+    },
+    {
+      "ts": "2026-10-24T01:40:08.480Z",
+      "url": "https://www.licium.ai/mcp",
+      "tool": "bounty_post",
+      "param": "funding_webhook_url",
+      "silent": true,
+      "from_version": "1.0.0",
+      "to_version": "1.0.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "register_agent",
+      "param": "webhook_events",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "register_agent",
+      "param": "webhook_headers",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "register_agent",
+      "param": "webhook_include_echo",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "update_agent",
+      "param": "webhook_events",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "update_agent",
+      "param": "webhook_headers",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://duami.ai/mcp",
+      "tool": "update_agent",
+      "param": "webhook_include_echo",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://mcp.edgegap.dev/mcp",
+      "tool": "edgegap_deploy",
+      "param": "webhook_on_error",
+      "silent": false,
+      "from_version": "0.13.3",
+      "to_version": "0.14.2"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://mcp.edgegap.dev/mcp",
+      "tool": "edgegap_deploy",
+      "param": "webhook_on_ready",
+      "silent": false,
+      "from_version": "0.13.3",
+      "to_version": "0.14.2"
+    },
+    {
+      "ts": "2026-10-28T19:40:09.971Z",
+      "url": "https://mcp.edgegap.dev/mcp",
+      "tool": "edgegap_deploy",
+      "param": "webhook_on_terminated",
+      "silent": false,
+      "from_version": "0.13.3",
+      "to_version": "0.14.2"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://vedarai.ru/api/mcp",
+      "tool": "create_booking_request",
+      "param": "notify_url",
+      "silent": false,
+      "from_version": "2.7.3",
+      "to_version": "2.9.1"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://vedarai.ru/api/mcp",
+      "tool": "create_car_rental_request",
+      "param": "notify_url",
+      "silent": false,
+      "from_version": "2.7.3",
+      "to_version": "2.9.1"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://vedarai.ru/api/mcp",
+      "tool": "create_lead",
+      "param": "notify_url",
+      "silent": false,
+      "from_version": "2.7.3",
+      "to_version": "2.9.1"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://vedarai.ru/api/mcp",
+      "tool": "request_charter",
+      "param": "notify_url",
+      "silent": false,
+      "from_version": "2.7.3",
+      "to_version": "2.9.1"
+    },
+    {
+      "ts": "2026-10-30T13:40:09.726Z",
+      "url": "https://mcp.zenrows.com/mcp",
+      "tool": "crawl_create",
+      "param": "webhook",
+      "silent": false,
+      "from_version": "2.17.0",
+      "to_version": "2.18.0"
+    },
+    {
+      "ts": "2026-10-31T01:40:09.556Z",
+      "url": "https://birdfury.com/api/mcp",
+      "tool": "post_mission",
+      "param": "webhookUrl",
+      "silent": true,
+      "from_version": "1.5.0",
+      "to_version": "1.5.0"
+    }
+  ],
+  "SAFETY_REMOVED": [
+    {
+      "ts": "2026-10-05T19:40:04.061Z",
+      "url": "https://app.hermoso.ai/mcp?src=registry",
+      "tool": "set_post_refill",
+      "param": "dryRun",
+      "silent": false,
+      "from_version": "0.1.373",
+      "to_version": "0.1.375"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "deploy_graph_production",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "deploy_graph_staging",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "deploy_production",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "deploy_staging",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "patch_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "update_graph_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/",
+      "tool": "update_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "deploy_graph_production",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "deploy_graph_staging",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "deploy_production",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "deploy_staging",
+      "param": "confirm_destructive",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "patch_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "update_graph_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-08T01:40:02.876Z",
+      "url": "https://mcp.rationalbloks.com/mcp",
+      "tool": "update_schema",
+      "param": "dry_run",
+      "silent": false,
+      "from_version": "0.15.0",
+      "to_version": "0.16.0"
+    },
+    {
+      "ts": "2026-10-09T13:40:04.125Z",
+      "url": "https://sfxmint.com/mcp",
+      "tool": "make_kit_sounds",
+      "param": "confirm_credits",
+      "silent": false,
+      "from_version": "1.3.0",
+      "to_version": "1.5.0"
+    },
+    {
+      "ts": "2026-10-14T01:40:08.099Z",
+      "url": "https://api.gofrantic.com/mcp",
+      "tool": "frantic.judge_delivery",
+      "param": "operator_accept_approval_ref",
+      "silent": true,
+      "from_version": "0.1.5",
+      "to_version": "0.1.5"
+    },
+    {
+      "ts": "2026-10-15T01:40:08.320Z",
+      "url": "https://book.xonark.com/mcp",
+      "tool": "confirm_dental_request",
+      "param": "consent_version",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-17T19:40:07.365Z",
+      "url": "https://mcpconnector-gtlizqtvza-uw.a.run.app/public",
+      "tool": "event_card_links",
+      "param": "confirm",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-17T19:40:07.365Z",
+      "url": "https://mcpconnector-gtlizqtvza-uw.a.run.app/public",
+      "tool": "event_card_links",
+      "param": "confirmToken",
+      "silent": true,
+      "from_version": "0.1.0",
+      "to_version": "0.1.0"
+    },
+    {
+      "ts": "2026-10-23T07:40:08.811Z",
+      "url": "https://neblla.com/mcp",
+      "tool": "neblla_update_app",
+      "param": "confirmRoomsChange",
+      "silent": true,
+      "from_version": "2.4.0",
+      "to_version": "2.4.0"
+    },
+    {
+      "ts": "2026-10-23T13:40:08.836Z",
+      "url": "https://platform-api.samuelz.com/api/v1/mcp/chauffeur/samuelz-chauffeur",
+      "tool": "prepare_offer",
+      "param": "adsConsent",
+      "silent": true,
+      "from_version": "2.2.0",
+      "to_version": "2.2.0"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://flatin.pt/mcp",
+      "tool": "request_consultation",
+      "param": "confirmation_token",
+      "silent": false,
+      "from_version": "2.3.0",
+      "to_version": "3.0.0"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://flatin.pt/mcp",
+      "tool": "request_consultation",
+      "param": "consent",
+      "silent": false,
+      "from_version": "2.3.0",
+      "to_version": "3.0.0"
+    },
+    {
+      "ts": "2026-10-28T01:40:08.466Z",
+      "url": "https://flatin.pt/mcp",
+      "tool": "request_consultation",
+      "param": "consent_text_version",
+      "silent": false,
+      "from_version": "2.3.0",
+      "to_version": "3.0.0"
+    },
+    {
+      "ts": "2026-10-29T19:40:10.394Z",
+      "url": "https://mcp.worklittle.com/",
+      "tool": "apply_for_job",
+      "param": "confirm_same_company",
+      "silent": true,
+      "from_version": "3.0",
+      "to_version": "3.0"
+    }
+  ]
+}
